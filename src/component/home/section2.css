@@ -1,8 +1,10 @@
 .imageholder{
     display: flex;
     justify-content: space-between;
+    
    
 }
+
 
 .sec1{
     padding-top: 150px;
@@ -13,15 +15,22 @@
 }
 
 #head{
-margin: 40px 0 40px 0;
+margin: 10px 0 40px 0;
 }
 
 .hold{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:650px) {
+    .hold{
+        flex-direction: column;
+    }
+}
+
 
 .bg{
     background-color:#8ac430;
@@ -38,7 +47,7 @@ margin: 40px 0 40px 0;
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    /* margin-top: 45px; */
+    margin-top: 45px;
 }
 
 .sec2{

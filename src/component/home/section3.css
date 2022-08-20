@@ -2,6 +2,46 @@ section{
     background-color: #ECE9E3;
 }
 
-.seccards{
-    
+.sec33{
+    padding: 0 0 40px 40px;
 }
+
+.seccards{
+    background: white;
+    width: 300px; 
+    max-height: 450px;
+    text-align: center;  
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.imgs{
+    width: 30vw;
+}
+
+.btn{
+    padding: 7px 25px;
+    color:#4F8C32;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #8AC430BD;
+}
+
+.seccards img{
+    max-width: 100%;
+}
+
+.seccards p{
+    font-size: 15px;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.seccards img{
+    width: 300px;
+}
+

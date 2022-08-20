@@ -5,13 +5,14 @@ function Nav (){
         <nav>
             <div className={styles.logo}><img src={logo} alt="" /></div>
             <ul className={styles.list}>
-                <li><span>Home</span></li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Contact</li>
-                <li>Help</li>
+                <li><span><a href="/home">Home</a></span></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/shop">Shop</a></li>
             </ul>
-             <button>Contact Us</button>
+             <button><a href="/Contact Us">Contact Us</a></button>
+
         </nav>
     )
 }
