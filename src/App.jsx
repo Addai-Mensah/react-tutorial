@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from './pages/home'
+import Shop from "./pages/shop"
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
  <BrowserRouter>
 <Routes>
   <Route  path="/" element = {<Home/>} />
-  <Route  path="/shop" element = {<Home/>} />
+  <Route  path="/shop" element = {<Shop/>} />
 </Routes>
  </BrowserRouter>
   );
