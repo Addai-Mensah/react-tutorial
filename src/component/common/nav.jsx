@@ -10,6 +10,7 @@ function Nav (){
                 <li><a href="/services">Services</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/shops">Shops</a></li>
+                <li><a href="/carts">Carts</a></li>
             </ul>
              <button><a href="/shop">Shop Now</a></button>
 

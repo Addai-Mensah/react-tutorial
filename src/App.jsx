@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from './pages/home'
 import Shop from "./pages/shop"
+import Carts from "./pages/carts"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 <Routes>
   <Route  path="/" element = {<Home/>} />
   <Route  path="/shop" element = {<Shop/>} />
+  <Route  path="/carts" element = {<Carts/>} />
 </Routes>
  </BrowserRouter>
   );
