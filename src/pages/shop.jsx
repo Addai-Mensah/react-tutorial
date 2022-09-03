@@ -23,7 +23,7 @@ function Shop (){
                 {
                   products.length > 0 ? (
                     products.map((item) =>(
-                        <Product product ={item}/>
+                        <Product product = {item}/>
                     ))
                   ) : (
                     <div>loading...</div>

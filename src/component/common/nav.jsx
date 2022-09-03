@@ -1,6 +1,12 @@
+import {useState} from "react"
 import styles from "./header.module.css"
 import logo from "../../assets/logo.png"
+import  {getStoredValue} from "../../utils/storageHelper"
+
+
 function Nav (){
+    let [carts,setcarts] = useState(JSON.parse(getStoredValue("cart")) || []);
+
     return(
         <nav>
             <div className={styles.logo}><img src={logo} alt="" /></div>
@@ -10,7 +16,7 @@ function Nav (){
                 <li><a href="/services">Services</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/shops">Shops</a></li>
-                <li><a href="/carts">Carts</a></li>
+                <li><a href="/carts">Carts {carts.length}</a></li>
             </ul>
              <button><a href="/shop">Shop Now</a></button>
 

@@ -11,6 +11,8 @@ nav{
     background-color: #8AC4304D;
     padding-left: 10px;
     align-items: center;
+    position: fixed;
+    top:0;
 }
 
 .list{

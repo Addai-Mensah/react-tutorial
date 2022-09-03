@@ -39,7 +39,7 @@ function Section3 (){
                             <h3>{item.name}</h3>
                             <p>(3.2% Review)</p>
                             <button className="btn">Order</button>
-                        </div>
+                         </div>
                         )
                     }): <div>loading ...</div>
                     }

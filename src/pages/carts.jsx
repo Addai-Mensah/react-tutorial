@@ -6,7 +6,7 @@ import Cart from '../component/cart/cart';
 
 function cart() {
     let [carts,setcarts] = useState(JSON.parse(getStoredValue("cart")) || []);
-    console.log(carts);
+    // console.log(carts);
 
   return (
     <div>
