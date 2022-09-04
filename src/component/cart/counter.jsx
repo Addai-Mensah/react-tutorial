@@ -1,5 +1,5 @@
 import React,{useState}  from 'react';
-import {BsFillPlusCircleFill} from "react-icons/bs";
+import {BsCloudPlusFill} from "react-icons/bs";
 import {BsFileMinusFill} from "react-icons/bs";
 import  {setStorage,getStoredValue} from "../../utils/storageHelper"
 
@@ -36,7 +36,7 @@ function Counter({qty, id}) {
 
   return (
     <div>
-    <BsFillPlusCircleFill  size={24} color="red"  onClick={() => handleValueChange("increase")}/>
+    <BsCloudPlusFill  size={24} color="red"  onClick={() => handleValueChange("increase")}/>
 
         {/* how to get value from impute field */}
         <input type="number" placeholder='qty'value={cartQty} onChange={(e) => setCartQty(e.target.value)} />
